@@ -24,7 +24,7 @@
         if (this.element_) {
             this.datepicker_ = new epepite.DatePicker.DatePicker({
                 'input'  : this.element_,
-                'locale' : navigator.language ? navigator.language : 'fr'
+                'locale' : navigator.language ? navigator.language : 'en'
             });
 
             this.datepicker_.on(epepite.DatePicker.CONSTANTS.DATEPICKER_EVENT, this.onSelectedDate.bind(this));
